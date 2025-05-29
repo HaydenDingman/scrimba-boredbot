@@ -3,5 +3,7 @@ document.querySelector("button").addEventListener("click", () => {
   .then(response => response.json())
   .then(data => {
     document.getElementById("activity-container").textContent = data.activity;
+    document.getElementById("title").textContent = "🤖 BoredNoMoreBot 🤖"
+    document.getElementById("container").classList.add("fun-background");
   })
 })
