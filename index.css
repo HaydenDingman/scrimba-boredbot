@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Slab', serif;
+}
+
+h1 {
+    margin: 0;
+    font-size: 3rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+    margin-top: 10vh;
+}
+
+.container {
+    padding-top: 10vh;
+    width: 100vw;
+    height: 100vh;
+    background-color: #D3D3CB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn {
+    background-color: #9F2B00;
+    padding: 3em;
+    border-radius: 50%;
+    border: 2px solid #000;
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: #D37506;
+}
